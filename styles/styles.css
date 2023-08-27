@@ -314,21 +314,40 @@ section {
     width: 80%;
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-    width: 95%;
+    width: 75%;
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress .js {
     width: 75%;
   }
-  .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-    width: 60%;
-  }
-  .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-    width: 87%;
-  }
+
   .about-stats .progress-bars .progress-bar .progress-con .progress .python {
     width: 70%;
   }
+
+  .about-stats .progress-bars .progress-bar .progress-con .progress .typescript {
+    width: 50%;
+  }
+
+  .about-stats .progress-bars .progress-bar .progress-con .progress .C {
+    width: 80%;
+  }
+
+  .about-stats .progress-bars .progress-bar .progress-con .progress .C-plus {
+    width: 75%;
+  }
+
+  .about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
+    width: 80%;
+  }
   
+  .about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
+    width: 75%;
+  }
+
+  .about-stats .progress-bars .progress-bar .progress-con .progress .tailwind {
+    width: 60%;
+  }
+
   .stat-title {
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -336,6 +355,7 @@ section {
     padding: 3.5rem 0;
     position: relative;
   }
+  
   .stat-title::before {
     content: "";
     position: absolute;
@@ -551,6 +571,7 @@ section {
     margin: 0.3rem 0 !important;
     padding: 0 !important;
   }
+
   .contact-content-con .left-contact .contact-info .contact-item .icon {
     display: grid;
     grid-template-columns: 40px 1fr;
@@ -694,6 +715,7 @@ section {
   
   .about-container .left-about p {
     padding-left: 0;
+    /* width: 350px; */
   }
   
   @media screen and (max-width: 600px) {
